@@ -18,3 +18,5 @@ macOS:
 Copy code
 brew install nmap
 pip install python-nmap
+
+Após a instalaçao, basta apenas executar o script e digitar o IP a ser escaneado.
