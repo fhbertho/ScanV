@@ -1,9 +1,12 @@
 import socket
+import time
 
 #IP do host inputado pelo usuario
 host = input("Digite o endereço IP do host: ")
 min_port = int(input("Digite o número da porta mínima a ser verificada: "))
 max_port = int(input("Digite o número da porta máxima a ser verificada: "))
+
+print(f"Iniciando scan de portas para o host: {host}")
 
 #Range de portas
 for port in range(min_port, max_port + 1):
